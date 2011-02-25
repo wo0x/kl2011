@@ -1,0 +1,134 @@
+/* line 8, ../../../app/stylesheets/custom.sass */
+html {
+  background: #f8f3f0;
+}
+
+/* line 8, ../../../app/stylesheets/include/frameset.sass */
+#main {
+  position: absolute;
+  min-width: 561px;
+  min-height: 405px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* line 17, ../../../app/stylesheets/include/frameset.sass */
+#headergrafx {
+  top: 0px;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  background: url("../../images/header.gif") no-repeat bottom left;
+  z-index: 4;
+}
+
+/* line 21, ../../../app/stylesheets/include/frameset.sass */
+#footergrafx {
+  bottom: 0px;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  background: url("../../images/footer.gif") no-repeat top right;
+  z-index: 4;
+}
+
+/* line 25, ../../../app/stylesheets/include/frameset.sass */
+#main_site {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  bottom: 100px;
+  background: #b2b3b5;
+}
+
+/* line 34, ../../../app/stylesheets/include/frameset.sass */
+#langswitch {
+  position: absolute;
+  right: 0px;
+  top: -22px;
+  width: 100%;
+  height: 20px;
+  z-index: 5;
+}
+
+/* line 42, ../../../app/stylesheets/include/frameset.sass */
+#navi {
+  position: absolute;
+  top: 5%;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 200px;
+  float: left;
+  z-index: 15;
+}
+
+/* line 52, ../../../app/stylesheets/include/frameset.sass */
+#content {
+  position: absolute;
+  padding: 10px 80px;
+  left: 80px;
+  bottom: 0px;
+  top: 30px;
+  right: 0px;
+  overflow: auto;
+}
+
+/* line 61, ../../../app/stylesheets/include/frameset.sass */
+#splash-image {
+  width: 100%;
+  position: absolute;
+  bottom: -11%;
+  left: 0px;
+}
+
+/* line 1, ../../../app/stylesheets/include/langswitch.sass */
+div.langswitch {
+  font-family: akzidenz-grotesk, antiqua, helvetica, arial, sans-serif;
+  background-color: #b2b3b5;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+/* line 9, ../../../app/stylesheets/include/langswitch.sass */
+a.langswitch:link, a.langswitch:visited {
+  font-weight: bold;
+  color: #603020;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 16, ../../../app/stylesheets/include/langswitch.sass */
+a.langswitch:focus, a.langswitch:hover, a.langswitch:active {
+@extends a.langswitch:link;
+  text-decoration: underline;
+}
+
+/* line 4, ../../../app/stylesheets/include/navigation.sass */
+a.navi:link, a.navi:visited {
+  text-transform: uppercase;
+  color: #603020;
+  text-decoration: none;
+  z-index: 7;
+}
+
+/* line 11, ../../../app/stylesheets/include/navigation.sass */
+a.navi:focus, a.navi:hover, a.navi:active {
+@extends a.navi:link;
+  text-decoration: underline;
+  cursor: default;
+}
+
+/* line 17, ../../../app/stylesheets/include/navigation.sass */
+div.navi {
+  z-index: 7;
+  width: 100%;
+  height: 25px;
+  padding-bottom: 0.2em;
+  padding-left: 25px;
+  background: url(../images/bg_raster.gif);
+}

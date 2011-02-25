@@ -1,0 +1,66 @@
+@mixin bordergrafx($file,$fix1,$fix2)
+  height:       100px
+  position:     absolute
+  width:        100%
+  background:   url($file) no-repeat $fix1 $fix2
+  z-index:	4
+
+#main
+  position: absolute
+  min-width:  561px
+  min-height: 405px
+  top: 0px
+  left: 0px
+  right: 0px
+  bottom: 0px
+
+#headergrafx
+  top:          0px
+  @include      bordergrafx("../../images/header.gif", bottom, left)
+
+#footergrafx 
+  bottom:       0px
+  @include      bordergrafx("../../images/footer.gif", top, right)
+
+#main_site 
+  position:     absolute
+  top:          100px
+  left:         0px
+  right:        0px
+  bottom:       100px
+  background:   $col_grey
+
+
+#langswitch 
+  position:     absolute
+  right:        0px
+  top:          -22px
+  width:        100%
+  height:       20px
+  z-index:      5
+
+#navi
+  position:     absolute
+  top:          5%
+  left:         0px
+  bottom:       0px
+  height:       100%
+  width:        200px
+  float:        left
+  z-index:      15
+
+#content
+  position:     absolute
+  padding:      10px 80px
+  left:         80px
+  bottom:       0px
+  top:          30px
+  right:        0px
+  overflow:     auto
+
+#splash-image
+  width:        100%
+  position:     absolute
+  bottom:       -11%
+  left:         0px
+

@@ -1,0 +1,24 @@
+@mixin navilink_common
+  
+
+a.navi:link, a.navi:visited 
+  text-transform:         uppercase
+  color:                  #603020
+  text-decoration:        none
+  z-index:                7
+
+
+a.navi:focus, a.navi:hover, a.navi:active 
+  @extends a.navi:link
+  text-decoration:        underline
+  cursor:                 default
+
+
+div.navi        
+  z-index:                7
+  width:                  100%
+  height:                 25px
+  padding-bottom:         0.2em
+  padding-left:           25px
+  background:             url(../images/bg_raster.gif)
+

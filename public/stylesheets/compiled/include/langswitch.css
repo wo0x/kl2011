@@ -1,0 +1,22 @@
+/* line 1, ../../../../app/stylesheets/include/langswitch.sass */
+div.langswitch {
+  font-family: akzidenz-grotesk, antiqua, helvetica, arial, sans-serif;
+  background-color: #b2b3b5;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+/* line 9, ../../../../app/stylesheets/include/langswitch.sass */
+a.langswitch:link, a.langswitch:visited {
+  font-weight: bold;
+  color: #603020;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 16, ../../../../app/stylesheets/include/langswitch.sass */
+a.langswitch:focus, a.langswitch:hover, a.langswitch:active {
+@extends a.langswitch:link;
+  text-decoration: underline;
+}
