@@ -2,10 +2,9 @@
   .nav
     %ul
       %li
-        //= link_to "de", "#{APP_CONFIG[:deutsch_website_url]}#{request.env['REQUEST_URI']}"
-        = link_to "de", "#{request.env['REQUEST_URI']}"
+        = link_to "de", langswitch_linkto_helper("de")
       %li
-        = link_to "en", "#"##{APP_CONFIG[:deutsch_website_url]}#{request.env['REQUEST_URI']}"
+        = link_to "en", langswitch_linkto_helper("en")
       %li
-        = link_to "fr", "#"#{APP_CONFIG[:deutsch_website_url]}#{request.env['REQUEST_URI']}"
+        = link_to "fr", langswitch_linkto_helper("fr")
 
