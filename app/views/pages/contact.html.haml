@@ -1,2 +1,7 @@
-%h1 Pages#contact
-%p Find me in app/views/pages/contact.html.erb
+//%h1= i18n.translate "pages.contact.title"
+//%p= I18n.translate 'pages.contact.intro'
+= t '.title'
+%br
+= I18n.default_locale
+= request.user_preferred_languages
+

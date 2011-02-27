@@ -53,6 +53,7 @@ GEM
       json (~> 1.4.6)
     gravatar_image_tag (1.0.0)
     haml (3.0.25)
+    http_accept_language (1.0.1)
     i18n (0.5.0)
     json (1.4.6)
     mail (2.2.15)
@@ -63,12 +64,6 @@ GEM
     mime-types (1.16)
     nokogiri (1.4.4)
     polyglot (0.3.1)
-    r18n-core (0.4.9)
-    r18n-rails (0.4.9)
-      r18n-rails-api
-    r18n-rails-api (0.4.9)
-      i18n
-      r18n-core (= 0.4.9)
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
@@ -125,7 +120,7 @@ DEPENDENCIES
   faker (= 0.3.1)
   gravatar_image_tag (= 1.0.0)
   haml
-  r18n-rails
+  http_accept_language
   rails (= 3.0.4)
   rspec (= 2.5.0)
   rspec-rails (= 2.5.0)
