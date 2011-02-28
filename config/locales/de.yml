@@ -1,4 +1,4 @@
-# German translations for Ruby on Rails 
+# German translatimns f(r Ruby on Rails 
 # by Clemens Kofler (clemens@railway.at)
 # contributors:
 #  - Alexander Dreher - http://github.com/alexdreher - Rails 3 update
@@ -9,16 +9,22 @@ de:
   navigation:
     login:      "Einloggen"
     signup:     "Registrieren"
-    start: 	"Startseite"
     roastery: 	"Rösterei"
     coffee:     "Kaffee"
     webshop: 	"Online kaufen"
+    start:      "Startseite"
     impressum: 	"Impressum"
     contact: 	"Kontakt"
+    logout:     "Ausloggen"
+    userlist:   "Nutzerliste"
 
   users:
-    new:	"Registrieren"
     show:	"Nutzerliste" 
+    new:        "Registrieren"
+    password:   "Passwort"
+    email:      "EMail-Adresse"
+    name:       "Name"
+    confirm_password: "Passwort bestätigen"
 
   pages:
     contact:

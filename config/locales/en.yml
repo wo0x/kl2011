@@ -15,9 +15,12 @@ en:
   users:
     new:        "Register"
     show:       "List of users"
-
+    password:   "password"
+    email:      "eMail adress"
+    name:       "name"
+    confirm_password: "confirm password"
 
   pages:
     contact:
-    title: "Contact"
-    intro: "Find me in app/views/pages/contact.html.erb"
+      title: "Contact"
+      intro: "Find me in app/views/pages/contact.html.erb"

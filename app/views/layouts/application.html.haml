@@ -14,14 +14,17 @@
         = render 'layouts/langswitch'
         = render 'layouts/navigation'
         /- if current_page?(:controller => 'pages', :action => 'home')
-        - if request.env['PATH_INFO'] == '/home'
+        - if (request.env['PATH_INFO'] == '/home') || (request.env['PATH_INFO'] == '/')
           = yield
         - else
           #content
+            - flash.each do |key, value| 
+              .flash.key
+                = value
             = yield
             %br
             %br
-            = debug(params) if Rails.env.development?
+            //= debug(params) if Rails.env.development?
       = render 'layouts/footer'
 
 

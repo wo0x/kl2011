@@ -1,24 +1,35 @@
 /*
 Syntax error: Undefined variable: "$col_brown".
-        on line 10 of /home/wo0x/rails_projects/kl2011/app/stylesheets/include/navigation.sass
+        on line 6 of /home/wo0x/rails_projects/kl2011/app/stylesheets/include/superuser.sass
 
-5: 
-6: a.navi:link, a.navi:visited
-7:   font-family:            garamond,serif
-8:   text-transform:         uppercase
-9:   letter-spacing:	  0.12em
-10:   color:                  $col_brown
-11:   text-decoration:        none
-12:   z-index:                7
-13: 
-14: 
-15: a.navi:focus, a.navi:hover, a.navi:active 
+1: 
+2: .admin_style
+3: 
+4: .tableformats
+5:   table
+6:     border:  $col_brown 1px solid
+7:     tr
+8:       th
+9:         text-align:	center
+10:         background: 	$col_brown
+11:         color:		$col_white
 
 Backtrace:
-/home/wo0x/rails_projects/kl2011/app/stylesheets/include/navigation.sass:10
+/home/wo0x/rails_projects/kl2011/app/stylesheets/include/superuser.sass:6
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/variable.rb:39:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/node.rb:61:in `perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/operation.rb:66:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/node.rb:61:in `perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/operation.rb:66:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/script/node.rb:61:in `perform'
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/prop_node.rb:132:in `perform!'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
+/usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/rule_node.rb:191:in `perform!'
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
 /usr/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
@@ -98,4 +109,4 @@ script/rails:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$col_brown\".\A         on line 10 of /home/wo0x/rails_projects/kl2011/app/stylesheets/include/navigation.sass\A \A 5: \A 6: a.navi:link, a.navi:visited\A 7:   font-family:            garamond,serif\A 8:   text-transform:         uppercase\A 9:   letter-spacing:	  0.12em\A 10:   color:                  $col_brown\A 11:   text-decoration:        none\A 12:   z-index:                7\A 13: \A 14: \A 15: a.navi:focus, a.navi:hover, a.navi:active "; }
+  content: "Syntax error: Undefined variable: \"$col_brown\".\A         on line 6 of /home/wo0x/rails_projects/kl2011/app/stylesheets/include/superuser.sass\A \A 1: \A 2: .admin_style\A 3: \A 4: .tableformats\A 5:   table\A 6:     border:  $col_brown 1px solid\A 7:     tr\A 8:       th\A 9:         text-align:	center\A 10:         background: 	$col_brown\A 11:         color:		$col_white"; }

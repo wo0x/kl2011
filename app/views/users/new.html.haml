@@ -1,2 +1,26 @@
-%h1 Users#new
-%p Find me in app/views/users/new.html.erb
+%h1= I18n.locale
+%br
+
+
+= form_for(@user) do |f| 
+  = render 'shared/error_messages' 
+
+= form_for(@user) do |f|
+  .field 
+    = f.label :name, t("users.name")
+    %br
+    = f.text_field :name 
+  .field
+    = f.label :email, t("users.email")
+    %br
+    = f.text_field :email
+  .field
+    = f.label :password, t("users.password")
+    %br 
+    = f.password_field :password
+  .field
+    = f.label :password_confirmation, t("users.confirm_password")
+    %br
+    = f.password_field :password_confirmation 
+  .actions
+    = f.submit t("navigation.signup")

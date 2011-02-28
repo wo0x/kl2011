@@ -4,7 +4,7 @@
 #   * Sven Dahlstrand (sven.dahlstrand@gmail.com)
 #   * Henrik Nyh (henrik@nyh.se)
 
-se:
+sv-SE:
 
   navigation:
     roastery:   "rostning"
@@ -20,11 +20,13 @@ se:
   users:
     new:        "Gå med"
     show:       "Medlemslista"
+    password:   "Lösenord"
+    email:      "E-postadress"
+    name:       "Namn"
+    confirm_password: "Bekräfta lösenord"
 
 
 ############################
-
-"sv-SE":
 
   number:
     # Used in number_with_delimiter()

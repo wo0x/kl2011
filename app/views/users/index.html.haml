@@ -1,0 +1,52 @@
+
+- if superuser?
+  .tableformats   
+    %table
+      %tr
+        %th Name
+        %th EMail
+        %th Access_Level
+        %th Created_At
+      - @users.each do |u|
+        %tr
+          %td= u.name
+          %td= u.email
+          %td{ :style => "text-align:center"}= u.access_level
+          %td= time_ago_in_words(u.created_at)
+
+  %p 
+    Access_Level:
+    %table
+      %colgroup
+        %col{ :width => "30px" }
+        %col{ :width => "300px" }
+      %tr
+        %td 0 
+        %td noch nicht mail-verifizierter Nutzer
+      %tr
+        %td 1
+        %td mail-verifizierter Nutzer
+      %tr
+        %td 2 
+        %td 
+          %em noch frei
+      %tr
+        %td 3 
+        %td business kunde
+      %tr
+        %td 4
+        %td
+          %em noch frei
+      %tr
+        %td 5 
+        %td Supervisor
+      %tr
+        %td 6
+        %td
+          %em noch frei
+      %tr
+        %td 7
+        %td Administrator
+
+
+

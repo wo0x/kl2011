@@ -10,7 +10,7 @@ pl:
     webshop:    "sklep"
     impressum:  "odcisk"
     contact:    "kontakt"
-    login:      "logowanie"
+    login:      "Logowanie"
     signup:     "Rejestracja"
     start:      "Strona główna"
 
@@ -18,6 +18,10 @@ pl:
   users:
     new:        "Rejestracja"
     show:       "Lista użytkowników"
+    password:   "Hasło"
+    email:      "Adres e-mail"
+    name:       "Nazwa"
+    confirm_password: "Potwierdź hasło"
 
 
 

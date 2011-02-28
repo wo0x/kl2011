@@ -11,7 +11,7 @@ fr:
 
   navigation:
     login:      "Connecter"
-    signup:     "inscriver"
+    signup:     "Inscriver"
     start:      "accueil"
     roastery:   "torréfaction"
     coffee:     "café"
@@ -22,7 +22,10 @@ fr:
   users:
     new:        "Inscriver"
     show:       "Liste des membres"
-
+    password:   "Mot de passe"
+    email:      "Adresse e-Mail"
+    name:       "Nom"
+    confirm_password: "Confirmer mot de passe"
 
 #common locales
   date:

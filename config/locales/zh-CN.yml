@@ -2,7 +2,8 @@
 # by tsechingho (http://github.com/tsechingho)
 
 
-cn:
+'zh-CN':
+
   navigation:
     roastery:   "焙烧"
     coffee:     "咖啡"
@@ -17,8 +18,12 @@ cn:
   users:
     new:        "注册"
     show:       "委员名单"
+    password:   "密码"
+    email:      "电邮地址"
+    name:       "姓名"
+    confirm_password: "确认密码"
 
-zh-CN:
+
   date:
     formats:
       default: "%Y-%m-%d"

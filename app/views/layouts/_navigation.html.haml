@@ -1,4 +1,7 @@
 #navi
+  -if @current_user && (@current_user.access_level > 4)
+    .navi.admin_style
+      = link_to t("navigation.userlist"), users_path   ,:class => "navi"
   .navi
     = link_to t("navigation.start"), 	home_path, 	:class => "navi"
   .navi

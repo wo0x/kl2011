@@ -3,15 +3,85 @@ html {
   background: #f8f3f0;
 }
 
+/* line 1, ../../../app/stylesheets/include/error_handling.sass */
+.field_with_errors {
+  padding: 1px;
+  margin-top: 0px;
+  background-color: #603020;
+  display: table;
+  border: 2px solid #603020;
+}
+
+/* line 8, ../../../app/stylesheets/include/error_handling.sass */
+.field_with_errors label {
+  color: #603020;
+  padding: -2px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  background: #f8f3f0;
+}
+
+/* line 17, ../../../app/stylesheets/include/error_handling.sass */
+#error_explanation {
+  width: 400px;
+  border: 2px solid #603020;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f8f3f0;
+}
+
+/* line 25, ../../../app/stylesheets/include/error_handling.sass */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  background-color: #603020;
+  color: #f8f3f0;
+}
+
+/* line 35, ../../../app/stylesheets/include/error_handling.sass */
+#error_explanation p {
+  margin-bottom: 0;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+/* line 41, ../../../app/stylesheets/include/error_handling.sass */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+  color: #603020;
+}
+
+/* line 5, ../../../app/stylesheets/include/superuser.sass */
+.tableformats table {
+  border: #603020 1px solid;
+}
+/* line 8, ../../../app/stylesheets/include/superuser.sass */
+.tableformats table tr th {
+  text-align: center;
+  background: #603020;
+  color: #f8f3f0;
+  font-weight: bold;
+}
+/* line 13, ../../../app/stylesheets/include/superuser.sass */
+.tableformats table tr td {
+  border: #603020 1px solid;
+  padding: 0 2px 0 2px;
+}
+
 /* line 8, ../../../app/stylesheets/include/frameset.sass */
 #main {
   position: absolute;
   min-width: 561px;
   min-height: 405px;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 /* line 17, ../../../app/stylesheets/include/frameset.sass */
@@ -104,49 +174,60 @@ html {
   text-decoration: underline;
 }
 
-/* line 15, ../../../app/stylesheets/include/langswitch.sass */
+/* line 16, ../../../app/stylesheets/include/langswitch.sass */
 .nav {
+  background: url(../../images/langswitch_bg.gif) no-repeat;
   float: right;
-  padding: 0 0.7em;
+  padding: 0.2em 25px 0.4em 0em;
+  height: 70px;
+  min-width: 180px;
   white-space: nowrap;
   text-align: right;
 }
-/* line 20, ../../../app/stylesheets/include/langswitch.sass */
+/* line 24, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 23, ../../../app/stylesheets/include/langswitch.sass */
+/* line 27, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
 }
-/* line 27, ../../../app/stylesheets/include/langswitch.sass */
+/* line 31, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a {
   padding: 0 5px;
   font-weight: bold;
 }
-/* line 30, ../../../app/stylesheets/include/langswitch.sass */
+/* line 34, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a:visited {
   color: #0099cc;
 }
-/* line 32, ../../../app/stylesheets/include/langswitch.sass */
+/* line 36, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* line 35, ../../../app/stylesheets/include/langswitch.sass */
+/* line 39, ../../../app/stylesheets/include/langswitch.sass */
 .log_in {
-  background: #f8f3f0;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  padding: 0 0 20px 0;
-  width: 92px;
+  background: #b2b3b5;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 0px;
+  margin: 0px 5px 0px 5px;
+  min-width: 82px;
   text-align: center;
 }
 
-/* line 3, ../../../app/stylesheets/include/navigation.sass */
+/* line 1, ../../../app/stylesheets/include/navigation.sass */
+.admin_style {
+  font-style: italic;
+  position: relative;
+  left: 20px;
+}
+
+/* line 6, ../../../app/stylesheets/include/navigation.sass */
 a.navi:link, a.navi:visited {
   font-family: garamond, serif;
   text-transform: uppercase;
@@ -156,14 +237,14 @@ a.navi:link, a.navi:visited {
   z-index: 7;
 }
 
-/* line 12, ../../../app/stylesheets/include/navigation.sass */
+/* line 15, ../../../app/stylesheets/include/navigation.sass */
 a.navi:focus, a.navi:hover, a.navi:active {
 @extends a.navi:link;
   text-decoration: underline;
   cursor: default;
 }
 
-/* line 18, ../../../app/stylesheets/include/navigation.sass */
+/* line 21, ../../../app/stylesheets/include/navigation.sass */
 div.navi {
   z-index: 7;
   width: 100%;
