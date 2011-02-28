@@ -4,7 +4,19 @@
 #   * Sven Dahlstrand (sven.dahlstrand@gmail.com)
 #   * Henrik Nyh (henrik@nyh.se)
 
-"sv-SE":
+#"sv-SE":
+"se":
+
+  navigation:
+    start:      "hem"
+    roastery:   "rostning"
+    coffee:     "kaffe"
+    webshop:    "Köp"
+    impressum:  "imprint"
+    contact:    "kontakta"
+
+############################
+
   number:
     # Used in number_with_delimiter()
     # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'

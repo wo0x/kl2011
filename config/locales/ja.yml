@@ -4,6 +4,16 @@
 # contributors:
 #  - Tsutomu Kuroda (t-kuroda@oiax.jp)
 
+jp: 
+  navigation:
+    start:      "ホーム"
+    roastery:   "焙煎"
+    coffee:     "コーヒー"
+    webshop:    "ウェブショップ"
+    impressum:  "インプリント"
+    contact:    "お問い合わせ"
+
+
 ja:
   date:
     formats:

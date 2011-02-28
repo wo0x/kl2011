@@ -3,6 +3,19 @@
 # Minor changes and adjustments for Rails 3 by Piotrek Okoński (http://github.com/pokonski)
 
 pl:
+
+  navigation:
+    start:      "strona główna"
+    roastery:   "prażenie"
+    coffee:     "naszych kaw"
+    webshop:    "sklep"
+    impressum:  "odcisk"
+    contact:    "kontakt"
+
+
+
+
+#####################
   date:
     formats:
       default: "%d-%m-%Y"

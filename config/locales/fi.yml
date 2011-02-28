@@ -5,6 +5,17 @@
 # corrected and amended by Niklas Laxström (niklas.laxstrom+rails@gmail.com) 2009
 
 fi:
+
+  navigation:
+    start:      "koti"
+    roastery:   "paahtamalla"
+    coffee:     "kahvi"
+    webshop:    "verkkokauppa"
+    impressum:  "jälki"
+    contact:    "yhteystiedot"
+
+
+
   date:
     formats:
       default: "%e. %Bta %Y"

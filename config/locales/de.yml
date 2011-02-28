@@ -6,6 +6,14 @@
 de:
 
 # Specific localisations
+  navigation:
+    start: 	"Startseite"
+    roastery: 	"Rösterei"
+    coffee:     "Kaffee"
+    webshop: 	"Online kaufen"
+    impressum: 	"Impressum"
+    contact: 	"Kontakt"
+ 
 
   pages:
     contact:

@@ -1,7 +1,18 @@
 # Czech translations for Ruby on Rails 
 # by Karel Minařík (karmi@karmi.cz)
 
+
 { :'cs' => {
+
+    :navigation => {
+      :start =>      "domácí",
+      :roastery =>   "pražení",
+      :coffee =>     "káva",
+      :webshop =>    "shop",
+      :impressum =>  "otisk",
+      :contact =>     "kontakt"
+    },
+
 
     # ActiveSupport
     :support => {

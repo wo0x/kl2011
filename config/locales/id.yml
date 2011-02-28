@@ -2,6 +2,16 @@
 # by wynst (wynst.uei@gmail.com)
 
 id:
+
+  navigation:
+    start:      "rumah"
+    roastery:   "pembakaran"
+    coffee:     "kopi"
+    webshop:    "beli"
+    impressum:  "jejak"
+    contact:    "menghubungi"
+
+
   locale:
     native_name: Bahasa Indonesia
     address_separator: " "

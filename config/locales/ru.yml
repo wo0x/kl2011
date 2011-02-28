@@ -11,6 +11,16 @@
 # была возможность минимальной локализации приложения на русский язык.
 
 ru:
+  
+  navigation:
+    start:      "Главная"
+    roastery:   "обжиг"
+    coffee:     "кофе"
+    webshop:    "магазин"
+    impressum:  "Выходные данные"
+    contact:    "Контакты"
+
+
   date:
     formats:
       default: "%d.%m.%Y"

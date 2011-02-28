@@ -3,6 +3,16 @@
 # - Vastly improved by Joram (namtih58@gmail.com)
 
 sw:
+
+  navigation:
+    start:      "nyumbani"
+    roastery:   "kutiwa"
+    coffee:     "kahawa"
+    webshop:    "Kununua"
+    impressum:  "imprint"
+    contact:    "contact"
+
+
   date:
     formats:
       default: '%d-%m-%Y'

@@ -2,6 +2,16 @@
 # by Ozgun Ataman (ozataman@gmail.com)
 
 tr:
+  navigation:
+    start:      "ev"
+    roastery:   "kavurma"
+    coffee:     "kahve"
+    webshop:    "Satın almak"
+    impressum:  "damga"
+    contact:    "temas"
+
+
+
   locale:
     native_name: Türkçe
     address_separator: " "

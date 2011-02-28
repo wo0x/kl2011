@@ -6,6 +6,19 @@
 #  - Tsutomu Kuroda - http://github.com/kuroda (t-kuroda@oiax.jp)
 
 fr:
+
+#specific locales
+
+  navigation:
+    start:      "accueil"
+    roastery:   "torréfaction"
+    coffee:     "café"
+    webshop:    "acheter"
+    impressum:  "mention légales"
+    contact:    "prendre contact"
+
+
+#common locales
   date:
     formats:
       default: "%d/%m/%Y"

@@ -1,5 +1,15 @@
 # Norwegian, norsk bokmål, by irb.no
 nb:
+
+  navigation:
+    start:      "kontakt"
+    roastery:   "steking"
+    coffee:     "roesterei"
+    webshop:    "webshop"
+    impressum:  "forlaget"
+    contact:    "kontakt"
+
+#####################################
   support:
     array:
       words_connector: ", "

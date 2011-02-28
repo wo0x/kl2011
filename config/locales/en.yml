@@ -1,7 +1,16 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-   pages:
-     contact:
-       title: "Contact"
-       intro: "Find me in app/views/pages/contact.html.erb"
+
+  navigation:
+    start:      "Home"
+    roastery:   "Roastery"
+    coffee:     "Coffee"
+    webshop:    "Buy online"
+    impressum:  "Legal notice"
+    contact:    "Contact us"
+
+  pages:
+    contact:
+    title: "Contact"
+    intro: "Find me in app/views/pages/contact.html.erb"
