@@ -7,19 +7,23 @@ de:
 
 # Specific localisations
   navigation:
+    login:      "Einloggen"
+    signup:     "Registrieren"
     start: 	"Startseite"
     roastery: 	"Rösterei"
     coffee:     "Kaffee"
     webshop: 	"Online kaufen"
     impressum: 	"Impressum"
     contact: 	"Kontakt"
- 
+
+  users:
+    new:	"Registrieren"
+    show:	"Nutzerliste" 
 
   pages:
     contact:
       title: "Kontakt"
       intro: "Ich bin in app/views/pages/contact.html.erb"
-
 
 # Common localisation
   date:

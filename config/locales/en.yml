@@ -3,12 +3,19 @@
 en:
 
   navigation:
+    login:      "Log in"
+    signup:     "Sign up"
     start:      "Home"
     roastery:   "Roastery"
     coffee:     "Coffee"
     webshop:    "Buy online"
     impressum:  "Legal notice"
     contact:    "Contact us"
+
+  users:
+    new:        "Register"
+    show:       "List of users"
+
 
   pages:
     contact:

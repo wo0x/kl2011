@@ -5,13 +5,19 @@
 pl:
 
   navigation:
-    start:      "strona główna"
     roastery:   "prażenie"
     coffee:     "naszych kaw"
     webshop:    "sklep"
     impressum:  "odcisk"
     contact:    "kontakt"
+    login:      "logowanie"
+    signup:     "Rejestracja"
+    start:      "Strona główna"
 
+
+  users:
+    new:        "Rejestracja"
+    show:       "Lista użytkowników"
 
 
 

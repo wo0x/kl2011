@@ -8,10 +8,10 @@ html {
   position: absolute;
   min-width: 561px;
   min-height: 405px;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
 }
 
 /* line 17, ../../../app/stylesheets/include/frameset.sass */
@@ -70,9 +70,9 @@ html {
 #content {
   position: absolute;
   padding: 10px 80px;
-  left: 80px;
+  left: 150px;
   bottom: 0px;
-  top: 30px;
+  top: 50px;
   right: 0px;
   overflow: auto;
 }
@@ -109,30 +109,41 @@ html {
   float: right;
   padding: 0 0.7em;
   white-space: nowrap;
+  text-align: right;
 }
-/* line 19, ../../../app/stylesheets/include/langswitch.sass */
+/* line 20, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 22, ../../../app/stylesheets/include/langswitch.sass */
+/* line 23, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
 }
-/* line 26, ../../../app/stylesheets/include/langswitch.sass */
+/* line 27, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a {
   padding: 0 5px;
   font-weight: bold;
 }
-/* line 29, ../../../app/stylesheets/include/langswitch.sass */
+/* line 30, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a:visited {
   color: #0099cc;
 }
-/* line 31, ../../../app/stylesheets/include/langswitch.sass */
+/* line 32, ../../../app/stylesheets/include/langswitch.sass */
 .nav ul li a:hover {
   text-decoration: underline;
+}
+
+/* line 35, ../../../app/stylesheets/include/langswitch.sass */
+.log_in {
+  background: #f8f3f0;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  padding: 0 0 20px 0;
+  width: 92px;
+  text-align: center;
 }
 
 /* line 3, ../../../app/stylesheets/include/navigation.sass */

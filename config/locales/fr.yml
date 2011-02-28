@@ -10,12 +10,18 @@ fr:
 #specific locales
 
   navigation:
+    login:      "Connecter"
+    signup:     "inscriver"
     start:      "accueil"
     roastery:   "torréfaction"
     coffee:     "café"
     webshop:    "acheter"
     impressum:  "mention légales"
     contact:    "prendre contact"
+
+  users:
+    new:        "Inscriver"
+    show:       "Liste des membres"
 
 
 #common locales

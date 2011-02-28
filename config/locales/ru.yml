@@ -13,12 +13,22 @@
 ru:
   
   navigation:
+    login:	"логин"
+    signup:	"регистрации"
     start:      "Главная"
     roastery:   "обжиг"
     coffee:     "кофе"
     webshop:    "магазин"
     impressum:  "Выходные данные"
     contact:    "Контакты"
+    login:      "логин"
+    signup:     "регистрации"
+    start:      "Главная"
+
+
+  users:
+    new:        "регистрации"
+    show:       "Пользователи"
 
 
   date:

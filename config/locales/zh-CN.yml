@@ -4,13 +4,19 @@
 
 cn:
   navigation:
-    start:      "首页"
     roastery:   "焙烧"
     coffee:     "咖啡"
     webshop:    "网上商店"
     impressum:  "版本说明"
     contact:    "联系"
+    login:      "登录"
+    signup:     "注册"
+    start:      "首页"
 
+
+  users:
+    new:        "注册"
+    show:       "委员名单"
 
 zh-CN:
   date:

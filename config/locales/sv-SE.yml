@@ -4,18 +4,27 @@
 #   * Sven Dahlstrand (sven.dahlstrand@gmail.com)
 #   * Henrik Nyh (henrik@nyh.se)
 
-#"sv-SE":
-"se":
+se:
 
   navigation:
-    start:      "hem"
     roastery:   "rostning"
     coffee:     "kaffe"
     webshop:    "Köp"
     impressum:  "imprint"
     contact:    "kontakta"
+    login:      "Inloggning"
+    signup:     "Gå med"
+    start:      "hem"
+
+
+  users:
+    new:        "Gå med"
+    show:       "Medlemslista"
+
 
 ############################
+
+"sv-SE":
 
   number:
     # Used in number_with_delimiter()

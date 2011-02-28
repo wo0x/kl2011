@@ -1,10 +1,11 @@
 #langswitch
   .nav
+    %ul.log_in{ :style => "width: 188px"}
+      - known_languages.each do |lang| # known languages specified in app/helpers/application_helper.rb
+        %li
+          = link_to lang, langswitch_linkto_helper(lang)
     %ul
-      %li
-        = link_to "de", langswitch_linkto_helper("de")
-      %li
-        = link_to "en", langswitch_linkto_helper("en")
-      %li
-        = link_to "fr", langswitch_linkto_helper("fr")
-
+      %li.log_in 
+        = link_to t("navigation.login"), "#"
+      %li.log_in
+        = link_to t("navigation.signup"), "/signup"
