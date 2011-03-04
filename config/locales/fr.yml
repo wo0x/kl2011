@@ -27,6 +27,16 @@ fr:
     name:       "Nom"
     confirm_password: "Confirmer mot de passe"
 
+
+  pages:
+    contact:
+      title: "set in locales"
+      intro: "set in locales"
+
+###########################################3333
+##############################################333
+
+
 #common locales
   date:
     formats:

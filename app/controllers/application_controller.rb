@@ -18,7 +18,7 @@ private
 
 
   def extract_locale_from_subdomain
-    parsed_locale = request.subdomains.first
+    request.subdomains.first ? parsed_locale = request.subdomains.first : parsed_locale = 'de'
     if    (parsed_locale.to_s.include?('cn')) then
            parsed_locale = 'zh-CN'
     elsif (parsed_locale.to_s.include?('se')) then

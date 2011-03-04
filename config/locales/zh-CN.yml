@@ -24,6 +24,14 @@
     confirm_password: "确认密码"
 
 
+  pages:
+    contact:
+      title: "set in locales"
+      intro: "set in locales"
+
+###########################################3333
+##############################################333
+
   date:
     formats:
       default: "%Y-%m-%d"

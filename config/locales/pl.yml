@@ -25,7 +25,11 @@ pl:
 
 
 
-#####################
+  pages:
+    contact:
+      title: "set in locales"
+      intro: "set in locales"
+###################
   date:
     formats:
       default: "%d-%m-%Y"

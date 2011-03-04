@@ -35,6 +35,16 @@ ru:
     confirm_password: "Подтверждение пароля"
 
 
+  pages:
+    contact:
+      title: "set in locales"
+      intro: "set in locales"
+
+###########################################3333
+##############################################333
+
+
+
   date:
     formats:
       default: "%d.%m.%Y"

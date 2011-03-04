@@ -26,6 +26,13 @@ sv-SE:
     confirm_password: "Bekräfta lösenord"
 
 
+  pages:
+    contact:
+      title: "set in locales"
+      intro: "set in locales"
+
+
+
 ############################
 
   number:
